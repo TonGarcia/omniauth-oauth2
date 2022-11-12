@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["iltonsilveira91@gmail.com", "michael@intridea.com", "sferik@gmail.com", "tmilewski@gmail.com"]
   gem.description   = "An abstract OAuth2 strategy for OmniAuth."
   gem.summary       = gem.description
-  gem.homepage      = "https://github.com/omniauth/omniauth-oauth2"
+  gem.homepage      = "https://github.com/TonGarcia/omniauth-oauth2"
   gem.licenses      = %w[MIT]
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").collect { |f| File.basename(f) }
